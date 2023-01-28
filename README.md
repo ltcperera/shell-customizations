@@ -51,3 +51,53 @@ Edit `.zshrc` and add the plugins:
 ```
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 ```
+
+## Install Useful Shell Utilities
+
+### Exa, a modern replacement for ls
+
+See https://github.com/ogham/exa for details.
+
+Installation on MacOS:
+
+```
+brew install exa
+```
+
+Installation on Arch Linux:
+
+```
+pacman -S exa
+```
+
+### Bat, a replacement for the cat command
+
+See https://github.com/sharkdp/bat for details.
+
+Installation on MacOS:
+
+```
+brew install bat
+```
+
+Installation on Arch Linux:
+
+```
+pacman -S bat
+```
+
+### Command-line Fuzzy Finder (fzf)
+
+See https://github.com/junegunn/fzf for details.
+
+Installation on MacOS:
+
+```
+brew install fzf
+```
+
+Installation on Arch Linux:
+
+```
+pacman -S fzf
+```
